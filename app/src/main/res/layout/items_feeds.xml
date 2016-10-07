@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/main_nes_image"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/title_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="Devil Frog Vomits Up a New Ant Species"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/news_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Sometimes scientists make discoveries in the strangest of places. Like the belly of a poison frog."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/chanel_img"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/news_other_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="2dp"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="by Jason Bittel on 2016-09-23"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="10sp" />
+
+</LinearLayout>
